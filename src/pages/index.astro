@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Markdown } from "astro-remote";
+
+const md = await fetch("https://raw.githubusercontent.com/XXCoreRangerX/XXCoreRangerX/master/README.md").then((res) => res.text());
+Astro.response.headers.set("Cache-Control", "public, max-age=3600");
+---
+
+<Layout>
+    <Markdown content={md} />
+</Layout>

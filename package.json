@@ -1,0 +1,19 @@
+{
+  "name": "xxcorerangerx-github-io",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.19",
+    "@fontsource/lato": "^5.0.20",
+    "astro": "^4.5.9",
+    "astro-remote": "^0.3.2"
+  },
+  "packageManager": "pnpm@8.15.5"
+}
